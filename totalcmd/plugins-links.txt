@@ -6,3 +6,14 @@ FileInfo
 http://totalcmd.net/plugring/fileinfo.html
 Environment Variables Ex
 http://totalcmd.net/plugring/envvars.html
+Uninstaller64
+http://totalcmd.net/plugring/uninstaller64.html
+ISO
+http://ghisler.fileburst.com/plugins/iso_plugin.zip
+Imagine
+http://www.nyam.pe.kr/dev/imagine/download/x64/unicode/Imagine_1.0.9_x64_Unicode.zip
+http://www.nyam.pe.kr/dev/imagine/download/plugin/x64/Imagine_Plugin_Archive_x64_0.0.6.zip
+http://www.nyam.pe.kr/dev/imagine/download/plugin/x64/Imagine_Plugin_DCRaw_x64_0.0.6_GPL2.zip
+http://www.nyam.pe.kr/dev/imagine/download/plugin/x64/Imagine_Plugin_WebP_x64_0.0.8.zip
+ShellDetails
+http://lefteous.totalcmd.net/tc/shelldetails_eng.htm
