@@ -7,3 +7,5 @@ history=cat %CMDER_ROOT%\config\.history
 unalias=alias /d $1
 home=cd %HOME%
 cdem=cd %HOME%\.emacs.d
+killall=taskkill /f /im $1* /t
+alais=alias $*
