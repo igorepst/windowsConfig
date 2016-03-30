@@ -52,3 +52,5 @@ fi
 
 unset env
 
+
+[[ -f ~/.funcAliases ]] && . ~/.funcAliases
