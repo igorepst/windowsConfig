@@ -1,4 +1,4 @@
-#z::Run, c:\progs\nirsoft\nircmd.exe execmd %HOME%\Scripts\runEmacs.bat, %HOME%\.emacs.d
+#z::Run, c:\progs\nirsoft\nircmd.exe execmd %HOME%\windowsConfig\Scripts\runEmacs.bat, %HOME%\.emacs.d
 
 #Enter::
 IfWinNotExist ahk_exe ConEmu.exe
