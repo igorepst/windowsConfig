@@ -1,0 +1,23 @@
+#Emacs: shell-script-mode
+
+# Filename completion/expansion
+set completion-ignore-case on
+set show-all-if-ambiguous on
+
+# Append "/" to all dirnames
+set mark-directories on
+set mark-symlinked-directories on
+
+# Match all files
+set match-hidden-files on
+
+# Disable echoing ^C
+set echo-control-characters off
+
+"\e[A":history-search-backward
+"\e[B":history-search-forward
+
+# cycle forward
+TAB: menu-complete
+# cycle backward
+Control-j: menu-complete-backward

@@ -1,8 +1,38 @@
 #Emacs: shell-script-mode
+
+alias grep='grep -i --color=auto'
+alias egrep='egrep -i --color=auto'
+alias fgrep='fgrep -i --color=auto'
+
+alias ls='ls --color=auto'
+alias la='ls --group-directories-first --time-style="+%d/%m/%y %R" -AhFlv'
+# order by date, newest first
+alias lt='la -t'
+
+alias cd..='cd ..'
+alias ..='cd ..'
+alias ...='cd ../../'
+
+alias df="df -h --total"
+alias dfl="df -l"
+
+alias du='du -ch'
+alias bigfiles='du -ck | sort -nr | head'
+alias total='du -ch 2> /dev/null |tail -1'
+
+alias mkdir='mkdir -p'
+alias path='echo -e ${PATH//:/\\n}'
+alias wget="wget -c"
+alias tree="find . -print | sed -e 's;[^/]*/;|____;g;s;____|; |;g'"
+# Like which but with aliases support
+alias wh='alias | /usr/bin/which --tty-only --read-alias --show-dot --show-tilde'
+alias s=less
+alias reload='source ~/.bashrc'
+
 function gitSearchUntracked() {
-    grep -i -e "$1" $(git ls-files -m --others --exclude-standard)
+    grep -e "$1" $(git ls-files -m --others --exclude-standard)
 }
 
 function grepHereForPattern(){
-    grep -rn '.' -i -e "$1"
+    grep -rn '.' -e "$1"
 }

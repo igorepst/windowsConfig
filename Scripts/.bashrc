@@ -33,8 +33,8 @@ agent_start() {
 }
 
 agent_add_keys() {
-	ssh-add ~/.ssh/id_rsa
-	ssh-add ~/.ssh/id_rsa.github
+#	ssh-add ~/.ssh/id_rsa
+	ssh-add ~/.ssh/id_rsa_github
 }
 
 if ! agent_is_running; then
